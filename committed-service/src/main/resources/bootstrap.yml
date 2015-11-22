@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: committed-service
+
+---
+
+spring:
+  profiles: default
+
+
+info:
+  message: Welcome local!
+
+---
+
+spring:
+  profiles: cloud
+
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}

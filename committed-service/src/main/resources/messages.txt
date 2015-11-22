@@ -1,0 +1,121 @@
+One does not simply merge into master
+See last commit message
+TODO: Add actual commit message
+Fixed a bug.
+It should work now.
+Finally it works on my machine.
+Whee.
+It'd be nice if type errors caused the compiler to issue a type error.
+Added some comments.
+WHO THE FUCK CAME UP WITH MAKE?
+This is a basic implementation that works.
+By works, I meant 'doesn't work'.  Works now..
+Last time I said it works? I was kidding.  Try this.
+Just stop reading these for a while, ok..
+Give me a break, it's 2am.  But it works now.
+Make that it works in 90% of the cases.  3:30.
+Ok, 5am, it works.  For real.
+I don't know what these changes are supposed to accomplish but somebody told me to make them.
+I don't get paid enough for this shit.
+Fixed some fucking errors
+So my boss wanted this button ...
+I hope nobody ever sees this.
+Forgot we're not using a smart language.
+To those I leave behind, good luck!
+Hopefully this works.
+No changes made
+(\ /)<br/>(O.o)<br/>(&gt; &lt;) Bunny approves these changes.
+.
+A fix I believe, not like I tested or anything.
+Useful text
+pgsql is being a pain
+fix
+arrrggghhhhh fixed!
+someone fails and it isn't me
+Gross hack because XNAMEX doesn't know how to code
+totally more readable
+better grepping
+fix
+fix /sigh
+REALLY FUCKING FIXED
+FIX
+better ignores
+More ignore
+more ignores
+more fixes
+fixes
+/sigh
+fail
+omg what have I done?
+tagging release w.t.f.
+I can't believe it took so long to fix this.
+This is why git rebase is a horrible horrible thing.
+Switched off unit test because the build had to go out now and there was no time to fix it properly.
+Updated
+Updated it.
+Completed with no bugs...
+Fixed a little bug...
+Woa!! This one was really HARD!
+Changed things...
+I think I fixed the bug...
+Oops, forgot to add the file
+Corrected mistakes
+Nothing to see here, move along
+I don't know what the hell I was thinking.
+Fixed errors in the previous commit
+Committed some changes
+Some bugs fixed
+Minor updates
+Added missing file in previous commit
+typo
+Continued development...
+work in progress
+minor changes
+some brief changes
+lots and lots of changes
+another big bag of changes
+lots of changes after a lot of time
+Some refactoring
+More refactoring
+Test commit. Please ignore
+I'll explain this when I'm sober .. or revert it
+Obligatory placeholder commit message
+A long time ago, in a galaxy far far away...
+Fixed the build.
+Fixing someone else bug.
+various changes
+Fixed unnecessary bug.
+Removed code.
+Added translation.
+Updated build targets.
+Refactored configuration.
+The last time I tried this the monkey didn't survive. Let's hope it works better this time.
+Don't push this commit
+I cannot believe that it took this long to write a test for this.
+tl;dr
+Is there an award for this?
+Is there an achievement for this?
+Committing in accordance with the prophecy.
+It compiles! Ship it!
+added security.
+gave up and used tables.
+Removed test case since code didn't pass QA
+removed tests since i can't make them green
+stuff
+more stuff
+Same as last commit with changes
+To be honest, I do not quite remember everything I changed here today. But it is all good, I tell ya.
+No changes after this point.
+Don’t even try to refactor it.
+Please no changes this time.
+ALL SORTS OF THINGS
+This should fix it
+Forgot to save that file
+My bad
+This solves it.
+Last minute fixes.
+Should work now.
+Commented out failing tests
+TODO: write meaningful commit message
+SOAP is a piece of shit
+Done, to whoever merges this, good luck.

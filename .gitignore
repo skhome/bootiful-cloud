@@ -1,0 +1,17 @@
+# This file specifies intentionally untracked
+# files that Git should ignore.
+
+# IDEA
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+build/
+
+# temporary runtime artifacts
+tmp/
+
+# Vagrant
+.vagrant/
+lattice.tgz
