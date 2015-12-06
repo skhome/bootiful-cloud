@@ -8,4 +8,15 @@ spring:
     config:
       server:
         git:
+          uri: file://${user.home}/projects/talks/bootiful-cloud-configuration
+
+---
+
+spring:
+  profiles: cloud
+
+  cloud:
+    config:
+      server:
+        git:
           uri: https://github.com/skhome/committed-configuration.git

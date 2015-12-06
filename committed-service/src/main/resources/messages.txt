@@ -24,7 +24,6 @@ Forgot we're not using a smart language.
 To those I leave behind, good luck!
 Hopefully this works.
 No changes made
-(\ /)<br/>(O.o)<br/>(&gt; &lt;) Bunny approves these changes.
 .
 A fix I believe, not like I tested or anything.
 Useful text
@@ -32,7 +31,7 @@ pgsql is being a pain
 fix
 arrrggghhhhh fixed!
 someone fails and it isn't me
-Gross hack because XNAMEX doesn't know how to code
+Gross hack because someone doesn't know how to code
 totally more readable
 better grepping
 fix
