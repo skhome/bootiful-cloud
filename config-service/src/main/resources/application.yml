@@ -1,0 +1,20 @@
+server:
+  port: ${SERVER_PORT:8888}
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/projects/talks/bootiful-cloud-configuration
+
+---
+
+spring:
+  profiles: cloud
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${CONFIG_SERVER_GIT_URI}

@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *       http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -28,17 +28,12 @@ import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.cloud.stream.annotation.EnableBinding;
-import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.Resource;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
-import org.springframework.integration.annotation.IntegrationComponentScan;
-import org.springframework.integration.annotation.MessageEndpoint;
-import org.springframework.integration.annotation.ServiceActivator;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -50,10 +45,10 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.Collection;
 
-@SpringBootApplication
 @EnableDiscoveryClient
-@IntegrationComponentScan
-@EnableBinding(Sink.class)
+@SpringBootApplication
+// @IntegrationComponentScan
+// @EnableBinding(Sink.class)
 public class CommittedServiceApplication implements CommandLineRunner {
 
     @Value("classpath:messages.txt")
@@ -79,19 +74,19 @@ public class CommittedServiceApplication implements CommandLineRunner {
     }
 }
 
-@MessageEndpoint
-class CommitMessageProcessor {
-
-    @Autowired
-    private CommitMessageRepository repository;
-
-    @ServiceActivator(inputChannel = Sink.INPUT)
-    public void receiveNewCommitMessage(final String message) {
-        System.out.println("receiving new message: " + message);
-        repository.save(new CommitMessage(message));
-    }
-
-}
+//@MessageEndpoint
+//class CommitMessageProcessor {
+//
+//    @Autowired
+//    private CommitMessageRepository repository;
+//
+//    @ServiceActivator(inputChannel = Sink.INPUT)
+//    public void receiveNewCommitMessage(final String message) {
+//        System.out.println("receiving new message: " + message);
+//        repository.save(new CommitMessage(message));
+//    }
+//
+//}
 
 
 @RefreshScope

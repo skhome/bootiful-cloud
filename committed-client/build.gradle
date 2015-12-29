@@ -27,12 +27,12 @@ dependencyManagement {
 }
 
 dependencies {
-    compile group: 'org.springframework.boot',  name: 'spring-boot-actuator'
-    compile group: 'org.springframework.boot',  name: 'spring-boot-starter-data-jpa'
-    compile group: 'org.springframework.boot',  name: 'spring-boot-starter-data-rest'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka'
-    runtime group: 'com.h2database', name: 'h2'
-
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-stream-rabbit'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix'
+    compile group: 'org.springframework.boot',  name: 'spring-boot-actuator'
+    compile group: 'org.springframework.boot',  name: 'spring-boot-starter-hateoas'
     compile('org.projectlombok:lombok')
 }

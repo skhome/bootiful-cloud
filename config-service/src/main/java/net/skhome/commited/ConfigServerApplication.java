@@ -13,10 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package net.skhome.commited;
 
-rootProject.name = 'bootiful-cloud'
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-include 'config-service'
-include 'eureka-service'
-include 'committed-service'
-include 'committed-client'
+@EnableConfigServer
+@SpringBootApplication
+public class ConfigServerApplication {
+
+    public static void main(final String[] args) {
+        SpringApplication.run(ConfigServerApplication.class, args);
+    }
+
+}

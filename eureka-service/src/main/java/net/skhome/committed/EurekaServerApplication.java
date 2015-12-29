@@ -13,10 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package net.skhome.committed;
 
-rootProject.name = 'bootiful-cloud'
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-include 'config-service'
-include 'eureka-service'
-include 'committed-service'
-include 'committed-client'
+@EnableEurekaServer
+@SpringBootApplication
+public class EurekaServerApplication {
+
+    public static void main(final String[] args) {
+        SpringApplication.run(EurekaServerApplication.class, args);
+    }
+
+}
